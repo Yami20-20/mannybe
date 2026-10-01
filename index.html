@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0,
+          maximum-scale=1.0, user-scalable=no">
+
+    <title>Baby Wendy Ko 💗</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=DM+Serif+Display:ital@0;1&family=Poppins:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- BACKGROUND -->
+    <div class="background">
+
+        <div class="aurora aurora-one"></div>
+        <div class="aurora aurora-two"></div>
+        <div class="aurora aurora-three"></div>
+
+        <div class="stars"></div>
+
+        <div class="moon">🌙</div>
+
+        <div class="floating-word word-one">hehe</div>
+        <div class="floating-word word-two">sus 😭</div>
+        <div class="floating-word word-three">cute mo</div>
+        <div class="floating-word word-four">ayan ka</div>
+        <div class="floating-word word-five">hoy 😂</div>
+
+    </div>
+
+    <!-- HEART CONTAINER -->
+    <div id="heartContainer"></div>
+
+    <!-- SPARKLES -->
+    <div id="sparkleContainer"></div>
+
+    <!-- MUSIC -->
+    <audio id="loveMusic" loop preload="auto">
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="music-status" id="musicStatus">
+        ♫
+    </div>
+
+    <!-- PAGE COUNTER -->
+    <div class="page-counter">
+        <span id="pageNumber">1</span>
+        <span class="slash">/</span>
+        <span>10</span>
+    </div>
+
+    <!-- MAIN -->
+    <main id="app">
+
+        <!-- PAGE 1 -->
+        <section class="page active">
+
+            <div class="little-heart">♡</div>
+
+            <p class="small-text">
+                psst...
+            </p>
+
+            <h1>
+                Uy...
+            </h1>
+
+            <h2>
+                <span>Baby Wendy ko</span>
+                ikaw nga. 😭
+            </h2>
+
+            <p class="message">
+                Bakit ka nandito?
+            </p>
+
+            <button class="main-btn next-btn">
+                Ewan ko rin 😂
+            </button>
+
+            <div class="tiny-note">
+                wag ka muna umalis
+            </div>
+
+        </section>
+
+
+        <!-- PAGE 2 -->
+        <section class="page">
+
+            <div class="emoji-big">
+                👀
+            </div>
+
+            <h1>
+                Wifey ko...
+            </h1>
+
+            <p class="message">
+                May sasabihin sana ako.
+            </p>
+
+            <button class="main-btn next-btn">
+                Ano yun? 😭
+            </button>
+
+            <p class="under-text">
+                importante 'to pramis
+            </p>
+
+        </section>
+
+
+        <!-- PAGE 3 -->
+        <section class="page">
+
+            <div class="heart-orbit">
+                <div class="orbit-heart">💗</div>
+            </div>
+
+            <p class="small-text">
+                actually...
+            </p>
+
+            <h1>
+                wala pala
+            </h1>
+
+            <p class="message">
+                HAHAHAHAHAHAHA 😭
+            </p>
+
+            <button class="main-btn next-btn">
+                Ang kulit mo 😒
+            </button>
+
+            <div class="floating-mini-hearts">
+                💕 💗 💖 💘 💝
+            </div>
+
+        </section>
+
+
+        <!-- PAGE 4 -->
+        <section class="page">
+
+            <div class="question-mark">
+                ?
+            </div>
+
+            <h1>
+                Baby Wendy ko...
+            </h1>
+
+            <p class="message">
+                Alam mo ba kung ano ka?
+            </p>
+
+            <div class="choice-area">
+
+                <button class="choice-btn wrong-choice">
+                    Mabait 😇
+                </button>
+
+                <button class="choice-btn wrong-choice">
+                    Maganda 😌
+                </button>
+
+                <button class="choice-btn correct-choice">
+                    Nakakainis 😭
+                </button>
+
+            </div>
+
+            <p class="under-text">
+                pili ka nang maayos HAHAHA
+            </p>
+
+        </section>
+
+
+        <!-- PAGE 5 -->
+        <section class="page runaway-page">
+
+            <div class="angry-face">
+                😒
+            </div>
+
+            <h1>
+                Oo.
+            </h1>
+
+            <p class="message">
+                Nakakainis ka kasi...
+            </p>
+
+            <p class="cute-reveal">
+                ang cute mo. 😭💗
+            </p>
+
+            <button class="main-btn next-btn">
+                Ayan na nga 😭
+            </button>
+
+            <div class="floating-texts">
+                <span>cute</span>
+                <span>cute</span>
+                <span>cute</span>
+                <span>cute</span>
+            </div>
+
+        </section>
+
+
+        <!-- PAGE 6 -->
+        <section class="page">
+
+            <div class="heart-rain-preview">
+                💗
+            </div>
+
+            <h1>
+                Sandali...
+            </h1>
+
+            <p class="message">
+                Parang dumadami yung hearts ah.
+            </p>
+
+            <button class="main-btn heart-btn" id="heartButton">
+                Pindutin mo nga 💗
+            </button>
+
+            <p class="under-text">
+                isang pindot lang daw...
+            </p>
+
+        </section>
+
+
+        <!-- PAGE 7 -->
+        <section class="page">
+
+            <div class="kiss">
+                😚
+            </div>
+
+            <h1>
+                Baby Wendy ko,
+            </h1>
+
+            <p class="message">
+                Sige na, alis ka na.
+            </p>
+
+            <button class="main-btn runaway-btn" id="runawayBtn">
+                Sige aalis na 😌
+            </button>
+
+            <p class="under-text">
+                bilis 😭
+            </p>
+
+        </section>
+
+
+        <!-- PAGE 8 -->
+        <section class="page">
+
+            <div class="big-heart">
+                💗
+            </div>
+
+            <p class="small-text">
+                okay okay...
+            </p>
+
+            <h1>
+                Last na talaga.
+            </h1>
+
+            <p class="message">
+                Promise.
+            </p>
+
+            <button class="main-btn next-btn">
+                Sige na nga 😂
+            </button>
+
+            <div class="promise">
+                🤞
+            </div>
+
+        </section>
+
+
+        <!-- PAGE 9 -->
+        <section class="page">
+
+            <div class="surprise-face">
+                😈
+            </div>
+
+            <h1>
+                Wifey ko...
+            </h1>
+
+            <p class="message">
+                Ito na talaga.
+            </p>
+
+            <p class="warning-text">
+                walang daya ha 👀
+            </p>
+
+            <button class="main-btn final-btn" id="finalButton">
+                Pindutin mo 😈
+            </button>
+
+            <p class="under-text">
+                hehe
+            </p>
+
+        </section>
+
+
+        <!-- PAGE 10 -->
+        <section class="page final-page">
+
+            <div class="final-heart">
+                💗
+            </div>
+
+            <h1>
+                Baby Wendy ko
+            </h1>
+
+            <p class="message">
+                O siya...
+            </p>
+
+            <p class="final-message">
+                Gusto lang talaga kitang kulitin. 😂
+            </p>
+
+            <p class="final-message">
+                Kasi ang cute mo eh.
+            </p>
+
+            <div class="final-sign">
+                — from your kulit 🤍
+            </div>
+
+            <button class="restart-btn" id="restartBtn">
+                Ulitin? 😂
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <!-- SHOCK SCREEN -->
+    <div id="shockOverlay">
+
+        <div class="shock-flash"></div>
+
+        <div class="shock-content">
+
+            <div class="shock-emoji">
+                😭
+            </div>
+
+            <h2>
+                HOY!!!
+            </h2>
+
+            <p>
+                GINULAT KITA HAHAHAHAHA
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- FINAL POPUP -->
+    <div id="sweetOverlay">
+
+        <div class="sweet-box">
+
+            <div class="sweet-hearts">
+                💗 💕 💖
+            </div>
+
+            <h2>
+                Gulat ka no? 😂
+            </h2>
+
+            <p>
+                Wala lang talaga.
+            </p>
+
+            <p>
+                Gusto lang kitang inisin nang konti.
+            </p>
+
+            <p class="sweet-last">
+                Baby Wendy ko bunganga mo hehehe. 💗
+            </p>
+
+            <button id="closeSweet">
+                Sige na nga 😭
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
